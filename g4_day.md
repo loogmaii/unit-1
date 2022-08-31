@@ -3,7 +3,7 @@
 **Calculations:**
 
 according to a 2010 article in Scientific American, "the memory capacity of the human brain was 
-reported to have the equivalent of *2.5 petabytes of memory capacity*"
+reported to have the equivalent of *2.5 petabytes of memory capacity*" (1)
 
 1 perabyte = 1,000 terabytes
 
@@ -23,4 +23,5 @@ which means the amount of 4Gb USB memories needed to download it
 
 
 **Citation**
+
 Neurology-Vegas. “What Is the Memory Capacity of a Human Brain?” Clinical Neurology Specialists, 6 Mar. 2016, www.cnsnevada.com/what-is-the-memory-capacity-of-a-human-brain/. Accessed 31 Aug. 2022.
