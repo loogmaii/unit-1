@@ -19,4 +19,4 @@ which means the amount of 4Gb USB memories needed to download it
 
 = 2,500,000/4
 
-= ***625000 USB memories***
+= ***625,000 USB memories***
