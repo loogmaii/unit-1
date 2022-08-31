@@ -20,3 +20,7 @@ which means the amount of 4Gb USB memories needed to download it
 = 2,500,000/4
 
 = ***625,000 USB memories***
+
+
+**Citation**
+Neurology-Vegas. “What Is the Memory Capacity of a Human Brain?” Clinical Neurology Specialists, 6 Mar. 2016, www.cnsnevada.com/what-is-the-memory-capacity-of-a-human-brain/. Accessed 31 Aug. 2022.
