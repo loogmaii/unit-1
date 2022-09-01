@@ -52,3 +52,31 @@ print(1/2 * b * h)
 
 Image of the results
 
+<img width="799" alt="Screen Shot 2565-09-01 at 22 25 22" src="https://user-images.githubusercontent.com/111941936/187926218-801baef4-5434-4fd1-b213-7ce13611ad8b.png">
+
+## Hello, Harry!
+
+Write a program that greets the user by printing the word "Hello", a comma, the name of the user and an exclamation mark after it. 
+
+```.py
+name = input()
+print('Hello'+ ', ' + name + '!')
+```
+
+Image of the results
+
+<img width="799" alt="Screen Shot 2565-09-01 at 22 37 31" src="https://user-images.githubusercontent.com/111941936/187927945-9477d191-f83f-40f9-81f0-efa6ddc30bba.png">
+
+## Apple sharing
+
+N students take K apples and distribute them among each other evenly. The remaining (the undivisible) part remains in the basket. How many apples will each single student get? How many apples will remain in the basket?
+
+```.py
+n = int(input())
+k = int(input())
+print(k // n)
+print(k % n)
+```
+Image of the results
+
+<img width="800" alt="Screen Shot 2565-09-01 at 22 48 15" src="https://user-images.githubusercontent.com/111941936/187930481-dbdaa989-e9d3-4662-8e7b-604b5b0e174e.png">
