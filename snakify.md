@@ -80,3 +80,54 @@ print(k % n)
 Image of the results
 
 <img width="800" alt="Screen Shot 2565-09-01 at 22 48 15" src="https://user-images.githubusercontent.com/111941936/187930481-dbdaa989-e9d3-4662-8e7b-604b5b0e174e.png">
+
+## Previous and next
+
+Write a program that reads an integer number and prints its previous and next numbers. See the examples below for the exact format your answers should take. There shouldn't be a space before the period.
+
+```.py
+a = int(input())
+print('The next number for the number ' + str(a) + ' is ' + str(a + 1) + '.')
+print('The previous number for the number ' + str(a) + ' is ' + str(a - 1) + '.')
+```
+
+Image of the results
+
+<img width="997" alt="Screen Shot 2565-09-03 at 00 01 24" src="https://user-images.githubusercontent.com/111941936/188178227-5653d593-2584-40c7-9ab5-acaf92ba3348.png">
+
+## Two timestamps
+
+A timestamp is three numbers: a number of hours, minutes and seconds. Given two timestamps, calculate how many seconds is between them. The moment of the first timestamp occurred before the moment of the second timestamp.
+
+```py
+hrs_1 = int(input())
+mins_1 = int(input())
+secs_1 = int(input())
+hrs_2 = int(input())
+mins_2 = int(input())
+secs_2 = int(input())
+print(hrs_2 * 3600 + mins_2 * 60 + secs_2
+- hrs_1 * 3600 - mins_1 * 60 - secs_1)
+```
+
+Image of the results
+
+<img width="807" alt="Screen Shot 2565-09-04 at 21 13 45" src="https://user-images.githubusercontent.com/111941936/188312881-984257ec-dc1b-4e6c-83af-a2a19e07b2b4.png">
+
+## School desks
+
+A school decided to replace the desks in three classrooms. Each desk sits two students. Given the number of students in each class, print the smallest possible number of desks that can be purchased.
+The program should read three integers: the number of students in each of the three classes, a, b and c respectively.
+
+In the first test there are three groups. The first group has 20 students and thus needs 10 desks. The second group has 21 students, so they can get by with no fewer than 11 desks. 11 desks is also enough for the third group of 22 students. So we need 32 desks in total.
+
+```py
+a = int(input())
+b = int(input())
+c = int(input())
+print(a//2 + b//2 + c//2 + a%2 + b%2 + c%2)
+```
+
+Image of the results
+
+<img width="798" alt="Screen Shot 2565-09-04 at 21 23 25" src="https://user-images.githubusercontent.com/111941936/188313333-3fda4422-3def-47d9-860e-a88dd7a02eed.png">
