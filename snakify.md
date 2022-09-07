@@ -310,3 +310,11 @@ Image of the results
 
 Let's count the days of the week as follows: 0 - Sunday, 1 - Monday, 2 - Tuesday, ..., 6 - Saturday. Given an integer K in the range 1 to 365, find the number of the day of the week for the K-th day of the year provided that this year's January 1 is Thursday.
 
+```py
+k = int(input())
+print((k + 3) % 7)
+```
+
+Image of the results
+
+<img width="778" alt="Screen Shot 2565-09-07 at 20 08 52" src="https://user-images.githubusercontent.com/111941936/188864205-d33243df-60d1-4bc4-a29f-5aef23877d7f.png">
