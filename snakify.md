@@ -294,4 +294,19 @@ Image of the results
 
 A car can cover distance of N kilometers per day. How many days will it take to cover a route of length M kilometers? The program gets two numbers: N and M.
 
+```py
+from math import ceil
+
+n = int(input())
+m = int(input())
+print(ceil(m / n))
+```
+
+Image of the results
+
+<img width="789" alt="Screen Shot 2565-09-06 at 19 29 21" src="https://user-images.githubusercontent.com/111941936/188613136-f6e96caf-6dd7-4254-bb0c-8d66ba96cab6.png">
+
+## Day of week
+
+Let's count the days of the week as follows: 0 - Sunday, 1 - Monday, 2 - Tuesday, ..., 6 - Saturday. Given an integer K in the range 1 to 365, find the number of the day of the week for the K-th day of the year provided that this year's January 1 is Thursday.
 
