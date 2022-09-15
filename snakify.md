@@ -319,4 +319,92 @@ Image of the results
 
 <img width="778" alt="Screen Shot 2565-09-07 at 20 08 52" src="https://user-images.githubusercontent.com/111941936/188864205-d33243df-60d1-4bc4-a29f-5aef23877d7f.png">
 
-##
+## Digital clock
+
+Given the integer N - the number of minutes that is passed since midnight - how many hours and minutes are displayed on the 24h digital clock?
+
+```py
+n = int(input())
+hours = n // 60
+minutes = n % 60
+print(hours, minutes)
+```
+
+Image of the results
+
+<img width="802" alt="Screen Shot 2565-09-15 at 09 59 48" src="https://user-images.githubusercontent.com/111941936/190288799-ef51c224-ad58-4689-9dfe-a3824dd13e8e.png">
+
+## Total cost
+
+A cupcake costs A dollars and B cents. Determine, how many dollars and cents should one pay for N cupcakes. A program gets three numbers: A, B, N. It should print two numbers: total cost in dollars and cents.
+
+```py
+a = int(input())
+b = int(input())
+n = int(input())
+cost = n * (100 * a + b)
+print(cost // 100, cost % 100)
+```
+
+Image of the results
+
+<img width="793" alt="Screen Shot 2565-09-15 at 10 01 12" src="https://user-images.githubusercontent.com/111941936/190288957-0c9ec27f-692e-4064-8b86-cea2df40509f.png">
+
+## Century
+
+Given a year as a positive integer, print its century. Mind that the 20th century began on 1901 and ended on 2000.
+
+```py
+a = int(input())
+print((a - 1) // 100 + 1)
+```
+
+Image of the results
+
+<img width="794" alt="Screen Shot 2565-09-15 at 10 05 04" src="https://user-images.githubusercontent.com/111941936/190289348-403fdca7-cac2-4c8a-912d-378ca3ec74ec.png">
+
+## Snail
+
+A snail goes up A feet during the day and falls B feet at night. How long does it take him to go up H feet?
+Given three integer numbers H, A and B (A > B), the program should output a number of days.
+
+```py 
+from math import ceil
+
+h = int(input())
+a = int(input())
+b = int(input())
+print(ceil((h - a) / (a - b)) + 1)
+```
+
+Image of the results
+
+<img width="792" alt="Screen Shot 2565-09-15 at 10 06 29" src="https://user-images.githubusercontent.com/111941936/190289517-d09e2d0f-bbf1-4952-a9aa-a4107a32ec41.png">
+
+## Clock face - 1
+
+H hours, M minutes and S seconds are passed since the midnight (0 ≤ H < 12, 0 ≤ M < 60, 0 ≤ S < 60). Determine the angle (in degrees) of the hour hand on the clock face right now.
+
+```py
+h = int(input())
+m = int(input())
+s = int(input())
+print( h * 30 + m * 30 / 60 + s * 30 / 3600)
+```
+
+Image of the results
+
+<img width="787" alt="Screen Shot 2565-09-15 at 10 08 08" src="https://user-images.githubusercontent.com/111941936/190289684-d68aa20a-1684-4f03-b121-0afb9a12d602.png">
+
+## Clock face - 2
+
+Hour hand turned by α degrees since the midnight. Determine the angle by which minute hand turned since the start of the current hour. Input and output in this problems are floating-point numbers.
+
+```py
+a = float(input())
+print(a % 30 * 12)
+```
+
+Image of the results
+
+<img width="792" alt="Screen Shot 2565-09-15 at 10 09 29" src="https://user-images.githubusercontent.com/111941936/190289920-afa640a5-262c-4112-80e3-cafc27c18a9d.png">
