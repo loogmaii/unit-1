@@ -408,3 +408,225 @@ print(a % 30 * 12)
 Image of the results
 
 <img width="792" alt="Screen Shot 2565-09-15 at 10 09 29" src="https://user-images.githubusercontent.com/111941936/190289920-afa640a5-262c-4112-80e3-cafc27c18a9d.png">
+
+# Chapter 3 - Conditions: if, then, else
+
+## Is positive
+
+Given an integer, print "YES" if it's positive and print "NO" otherwise.
+
+```py
+a = int(input())
+if a > 0:
+    print('YES')
+else:
+    print('NO')
+```
+
+Image of the results
+
+<img width="805" alt="Screen Shot 2565-09-15 at 10 14 43" src="https://user-images.githubusercontent.com/111941936/190290445-5ebcb8e0-32df-469b-ba6d-c31bbcb8f218.png">
+
+## Is odd
+
+Given an integer, print "YES" if it's odd and print "NO" otherwise.
+
+```py
+a = int(input())
+if a % 2 != 0:
+    print('YES')
+else:
+    print('NO')
+```
+
+Image of the results
+
+<img width="791" alt="Screen Shot 2565-09-15 at 10 17 47" src="https://user-images.githubusercontent.com/111941936/190290745-880c6389-e46d-4416-88a4-0722cbb5d84a.png">
+
+## Is even
+
+Given an integer, print "YES" if it's even and print "NO" otherwise.
+
+```py
+a = int(input())
+if a % 2 == 0:
+    print('YES')
+else:
+    print('NO')
+```
+
+Image of the results
+
+<img width="799" alt="Screen Shot 2565-09-15 at 10 19 39" src="https://user-images.githubusercontent.com/111941936/190290954-389a7fbe-f7c1-4f75-815c-d3d959fcb4ab.png">
+
+## Ends on seven
+
+```py
+a = int(input())
+if a % 10 == 7:
+    print('YES')
+else:
+    print('NO')
+```
+
+Image of the results
+
+<img width="800" alt="Screen Shot 2565-09-15 at 10 23 54" src="https://user-images.githubusercontent.com/111941936/190291462-c5f0dfaf-8c27-4a95-98d5-3519a1ef9a3d.png">
+
+## Minimum of two numbers
+
+Given two integers, print the smaller value.
+
+```py
+a = int(input())
+b = int(input())
+if a > b:
+    print(b)
+else:
+    print(a)
+```
+
+Image of the results
+
+<img width="807" alt="Screen Shot 2565-09-15 at 10 26 32" src="https://user-images.githubusercontent.com/111941936/190291819-d5ffe6f6-ba1b-46ad-8bf5-133c36bf2fae.png">
+
+## Are both odd
+
+```py
+a = int(input())
+b = int(input())
+if a % 2 == 1 and b % 2 == 1:
+    print('YES')
+else:
+    print('NO')
+```
+
+Image of the results
+
+<img width="802" alt="Screen Shot 2565-09-15 at 17 23 45" src="https://user-images.githubusercontent.com/111941936/190353941-9ef29543-4e77-4c5c-b897-992c1bcf0d7c.png">
+
+## At least one odd
+
+Given two integers, print "YES" if at least one of them is odd and print "NO" otherwise.
+
+```py
+a = int(input())
+b = int(input())
+if a % 2 == 1 or b % 2 == 1:
+    print('YES')
+else:
+    print('NO')
+```
+
+Image of the results
+
+<img width="783" alt="Screen Shot 2565-09-15 at 17 25 58" src="https://user-images.githubusercontent.com/111941936/190354361-9b362082-257e-4472-93b3-1b67787ed742.png">
+
+## Exactly one odd
+
+Given two integers, print "YES" if exactly one of them is odd and print "NO" otherwise.
+
+```py
+a = int(input())
+b = int(input())
+if a % 2 == 1 and b % 2 == 0 or a % 2 == 0 and b % 2 == 1:
+    print('YES')
+else:
+    print('NO')
+```
+
+Image of the results
+
+<img width="778" alt="Screen Shot 2565-09-15 at 17 28 53" src="https://user-images.githubusercontent.com/111941936/190354982-3999e739-b4d5-4f6c-9213-cec8adbe83c8.png">
+
+## Sign function
+
+For the given integer X print 1 if it's positive, -1 if it's negative, or 0 if it's equal to zero.
+
+```py
+a = int(input())
+if a > 0:
+    print(1)
+elif a == 0:
+    print(0)
+else:
+    print(-1)
+```
+
+Image of the results
+
+<img width="801" alt="Screen Shot 2565-09-15 at 17 34 08" src="https://user-images.githubusercontent.com/111941936/190356235-647ebd51-200c-4077-9336-dfdc5126445a.png">
+
+## Numbers in ascending order
+
+Given three different integers, print YES if they're given in ascending order, print NO otherwise.
+
+```py
+a = int(input())
+b = int(input())
+c = int(input())
+if a < b < c:
+    print('YES')
+else:
+    print('NO')
+```
+
+Image of the results
+
+<img width="796" alt="Screen Shot 2565-09-15 at 17 37 25" src="https://user-images.githubusercontent.com/111941936/190356979-0123437d-0f23-48d5-9aff-c2a9853d0355.png">
+
+## Is three digit
+
+Given an integer, print "YES" if it's a three-digit number and print "NO" otherwise.
+
+```py
+a = int(input())
+if a >= 100 and a < 1000:
+    print('YES')
+else:
+    print('NO')
+```
+
+Image of results
+
+<img width="798" alt="Screen Shot 2565-09-15 at 17 41 29" src="https://user-images.githubusercontent.com/111941936/190357846-fce6bc71-a92a-482b-b887-c173176d916c.png">
+
+## Minimum of three numbers
+
+Given three integers, print the smallest value.
+
+```py
+a = int(input())
+b = int(input())
+c = int(input())
+if b >= a <= c:
+    print(a)
+elif a >= b <= c:
+    print(b)
+else:
+    print(c)
+```
+
+Image of results
+
+<img width="798" alt="Screen Shot 2565-09-15 at 17 45 44" src="https://user-images.githubusercontent.com/111941936/190358787-4e7b7fc3-51cb-42b3-a720-50a0a16df199.png">
+
+## Equal numbers
+
+Given three integers, determine how many of them are equal to each other. The program must print one of these numbers: 3 (if all are the same), 2 (if two of them are equal to each other and the third is different) or 0 (if all numbers are different).
+
+```py
+a = int(input())
+b = int(input())
+c = int(input())
+if a == b == c:
+    print('3')
+elif a == b or a == c or b == c:
+    print('2')
+else:
+    print('0')
+```
+
+Image of results
+
+<img width="792" alt="Screen Shot 2565-09-15 at 17 50 31" src="https://user-images.githubusercontent.com/111941936/190359856-9d60f966-c4ff-4700-baa2-617d692d9134.png">
