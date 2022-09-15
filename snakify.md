@@ -630,3 +630,56 @@ else:
 Image of results
 
 <img width="792" alt="Screen Shot 2565-09-15 at 17 50 31" src="https://user-images.githubusercontent.com/111941936/190359856-9d60f966-c4ff-4700-baa2-617d692d9134.png">
+
+## Rook move
+
+Chess rook moves horizontally or vertically. Given two different cells of the chessboard, determine whether a rook can go from the first cell to the second in one move.
+The program receives the input of four numbers from 1 to 8, each specifying the column and row number, first two - for the first cell, and then the last two - for the second cell. The program should output YES if a rook can go from the first cell to the second in one move, or NO otherwise.
+
+```py
+a1 = int(input())
+b1 = int(input())
+a2 = int(input())
+b2 = int(input())
+if a1 == a2 or b1 == b2:
+    print('YES')
+else:
+    print('NO')
+```
+
+Image of the results
+
+<img width="787" alt="Screen Shot 2565-09-16 at 01 51 08" src="https://user-images.githubusercontent.com/111941936/190462407-e2d23065-e000-43b3-b160-97db933872f5.png">
+
+## Chess board - black square
+
+Given a square of a chessboard. Print BLACK if it's black and print WHITE otherwise.
+The program receives two numbers from 1 to 8 each - the column and the row number of the square.
+
+```py
+col = int(input())
+row = int(input())
+if row % 2 == col % 2:
+    print('BLACK')
+else:
+    print('WHITE')
+```
+
+Image of the results
+
+<img width="793" alt="Screen Shot 2565-09-16 at 02 23 16" src="https://user-images.githubusercontent.com/111941936/190470315-5a705053-0854-4775-a44e-afff3a7ff82f.png">
+
+```py
+a1 = int(input())
+b1 = int(input())
+a2 = int(input())
+b2 = int(input())
+if (a1 + b1 + a2 + b2) % 2 == 0:
+    print('YES')
+else:
+    print('NO')
+```
+
+Image of results
+
+<img width="804" alt="Screen Shot 2565-09-16 at 02 36 36" src="https://user-images.githubusercontent.com/111941936/190472786-72f8cf5f-2727-4929-8623-61fb77c9c32c.png">
