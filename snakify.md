@@ -669,6 +669,11 @@ Image of the results
 
 <img width="793" alt="Screen Shot 2565-09-16 at 02 23 16" src="https://user-images.githubusercontent.com/111941936/190470315-5a705053-0854-4775-a44e-afff3a7ff82f.png">
 
+## Chess board - same color
+
+Given two cells of a chessboard. If they are painted in one color, print the word YES, and if in a different color - NO.
+The program receives the input of four numbers from 1 to 8, each specifying the column and row number, first two - for the first cell, and then the last two - for the second cell.
+
 ```py
 a1 = int(input())
 b1 = int(input())
@@ -683,3 +688,44 @@ else:
 Image of results
 
 <img width="804" alt="Screen Shot 2565-09-16 at 02 36 36" src="https://user-images.githubusercontent.com/111941936/190472786-72f8cf5f-2727-4929-8623-61fb77c9c32c.png">
+
+## Distance to closest point
+
+Given the coordinates of the three points A, B, and C on a line. Print a distance from the point A to closest point to it.
+
+```py 
+a = int(input())
+b = int(input())
+c = int(input())
+
+a_to_b = abs(a - b)
+a_to_c = abs(a - c)
+
+if a_to_b < a_to_c:
+    print(a_to_b)
+else:
+    print(a_to_c)
+```
+
+Image of results
+
+<img width="794" alt="Screen Shot 2565-09-16 at 21 58 03" src="https://user-images.githubusercontent.com/111941936/190644262-421dfc69-8c40-4602-9af9-c637cedfa04e.png">
+
+## Digits in ascending order
+
+Given a three-digit integer, print YES if its digits go in ascending order, print NO otherwise.
+
+```py
+n = int(input())
+a = n % 10
+b = n % 100 // 10
+c = n // 100
+if c < b < a:
+    print('YES')
+else:
+    print('NO')
+```
+    
+Image of results
+
+<img width="802" alt="Screen Shot 2565-09-16 at 22 07 08" src="https://user-images.githubusercontent.com/111941936/190645889-6a9bf6fd-dfd9-407f-b61c-70def3512679.png">
