@@ -1018,4 +1018,28 @@ Image of results
 
 <img width="797" alt="Screen Shot 2565-09-19 at 00 17 20" src="https://user-images.githubusercontent.com/111941936/190914500-d88d4f7b-e4c3-4cc9-8611-6e5cbceabe40.png">
 
+## White pawn move
 
+A white chess pawn moves up vertically one square at a time. An exception is a pawn on a row #2: it can move either one or two squares up. In addition, a white chess pawn captures diagonally up one square to the left or right. A white chess pawn can never occur on a row #1.
+
+```py
+a1 = int(input())
+b1 = int(input())
+a2 = int(input())
+b2 = int(input())
+if abs(a1 - a2) < 2 and b1 > 1 and b1 < b2:
+    if b2 - b1 < 2:
+        print("YES")
+    elif b1 == 2 and b2 - b1 < 3 and a1 == a2:
+        print("YES")
+    else:
+        print("NO")
+else:
+    print("NO")
+```
+
+Image of results
+
+<img width="792" alt="Screen Shot 2565-09-19 at 09 24 48" src="https://user-images.githubusercontent.com/111941936/190934450-2c0c0113-b533-4a0a-ab24-34d3abcaeb81.png">
+
+#
