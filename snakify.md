@@ -729,3 +729,293 @@ else:
 Image of results
 
 <img width="802" alt="Screen Shot 2565-09-16 at 22 07 08" src="https://user-images.githubusercontent.com/111941936/190645889-6a9bf6fd-dfd9-407f-b61c-70def3512679.png">
+
+## Four-digit palindrome
+
+A palindrome is a number which reads the same when read forward as it it does when read backward. Given a four-digit integer, print "YES" if it's a palindrome and print "NO" otherwise.
+
+```py
+n = int(input())
+a = n // 100
+b = (n // 10 % 10) + (n % 10 * 10)
+if a == b:
+    print('YES')
+else:
+    print('NO')
+```
+
+Image of results
+
+<img width="802" alt="Screen Shot 2565-09-18 at 16 30 47" src="https://user-images.githubusercontent.com/111941936/190890954-e2a66c46-7b79-4030-ab99-aea92c2396fb.png">
+
+## King move
+
+Chess king moves horizontally, vertically or diagonally to any adjacent cell. Given two different cells of the chessboard, determine whether a king can go from the first cell to the second in one move.
+
+The program receives the input of four numbers from 1 to 8, each specifying the column and row number, first two - for the first cell, and then the last two - for the second cell. The program should output YES if a king can go from the first cell to the second in one move, or NO otherwise.
+
+```py
+a1 = int(input())
+b1 = int(input())
+a2 = int(input())
+b2 = int(input())
+if abs(a1 - a2) <= 1 and abs(b1 - b2) <= 1 :
+    print('YES')
+else:
+    print('NO')
+```
+
+Image of the results
+
+<img width="799" alt="Screen Shot 2565-09-18 at 16 37 13" src="https://user-images.githubusercontent.com/111941936/190891124-f660cd70-9a6d-45bb-bdf3-fb3a82d9888d.png">
+
+## Bishop moves
+
+In chess, the bishop moves diagonally, any number of squares. Given two different squares of the chessboard, determine whether a bishop can go from the first to the second in one move.
+
+The program receives as input four numbers from 1 to 8, specifying the column and row numbers of the starting square and the column and row numbers of the ending square. The program should output YES if a Bishop can go from the first square to the second in one move, or NO otherwise.
+
+```py
+a1 = int(input())
+b1 = int(input())
+a2 = int(input())
+b2 = int(input())
+if abs(a1 - a2) == abs(b1 - b2):
+    print('YES')
+else:
+    print('NO')
+```
+
+Image of results
+
+<img width="791" alt="Screen Shot 2565-09-18 at 16 41 19" src="https://user-images.githubusercontent.com/111941936/190891274-b05d3672-708a-4c46-8119-6541d8eb1e66.png">
+
+## Queen move
+
+Chess queen moves horizontally, vertically or diagonally to any number of cells. Given two different cells of the chessboard, determine whether a queen can go from the first cell to the second in one move.
+
+The program receives the input of four numbers from 1 to 8, each specifying the column and row number, first two - for the first cell, and then the last two - for the second cell. The program should output YES if a queen can go from the first cell to the second in one move, or NO otherwise.
+
+```py
+a1 = int(input())
+b1 = int(input())
+a2 = int(input())
+b2 = int(input())
+if abs(a1 - a2) == abs(b1 - b2) or a1 == a2 or b1 == b2:
+    print('YES')
+else:
+    print('NO')
+```
+
+Image of results
+
+<img width="803" alt="Screen Shot 2565-09-18 at 16 48 35" src="https://user-images.githubusercontent.com/111941936/190891648-b06edf86-f952-404f-9fc3-de87756a5ba9.png">
+
+## Index of outlier
+
+Given three integers: two are equal to each other and the third one is different. Print the index number of this different one - 1, 2 or 3.
+
+```py
+a = int(input())
+b = int(input())
+c = int(input())
+if a == b:
+    print('3')
+elif a == c:
+    print('2')
+else:
+    print('1')
+```
+
+Image of results
+
+<img width="803" alt="Screen Shot 2565-09-18 at 16 53 33" src="https://user-images.githubusercontent.com/111941936/190891798-39ac362b-21a1-4f94-830c-0f596a7934af.png">
+
+## Knight move
+
+Chess knight moves like the letter L. It can move two cells horizontally and one cell vertically, or two cells vertically and one cells horizontally. Given two different cells of the chessboard, determine whether a knight can go from the first cell to the second in one move.
+
+The program receives the input of four numbers from 1 to 8, each specifying the column and row number, first two - for the first cell, and then the last two - for the second cell. The program should output YES if a knight can go from the first cell to the second in one move, or NO otherwise.
+
+```py
+a1 = int(input())
+b1 = int(input())
+a2 = int(input())
+b2 = int(input())
+da = abs(a1 - a2)
+db = abs(b1 - b2)
+if da == 1 and db == 2 or da == 2 and db == 1:
+    print('YES')
+else:
+    print('NO')
+```
+
+Image of results
+
+<img width="795" alt="Screen Shot 2565-09-18 at 22 14 33" src="https://user-images.githubusercontent.com/111941936/190903962-0a0213d8-ba11-4459-a951-80f220ef542a.png">
+
+## Chocolate bar
+
+Chocolate bar has the form of a rectangle divided into n×m portions. Chocolate bar can be split into two rectangular parts by breaking it along a selected straight line on its pattern. Determine whether it is possible to split it so that one of the parts will have exactly k squares.
+
+```py
+n = int(input())
+m = int(input())
+k = int(input())
+if k <= n * m and (k % n == 0 or k % m == 0):
+    print('YES')
+else:
+    print('NO')
+```
+
+Image of results
+
+<img width="791" alt="Screen Shot 2565-09-18 at 22 43 49" src="https://user-images.githubusercontent.com/111941936/190906572-e4b2c3da-47a9-4c4e-9a1f-9afdc8fe5872.png">
+
+## Leap year
+
+Given the year number. You need to check if this year is a leap year. If it is, print LEAP, otherwise print COMMON.
+
+```py
+y = int(input())
+if y % 4 == 0 and y % 100 != 0 or y % 400 == 0:
+    print('LEAP')
+else:
+    print('COMMON')
+```
+
+Image of results
+
+<img width="794" alt="Screen Shot 2565-09-18 at 22 52 13" src="https://user-images.githubusercontent.com/111941936/190909931-1f5134da-b71d-4fe3-ab13-73ec60f135d1.png">
+
+## Days in month
+
+Given a month - an integer from 1 (January) to 12 (December), print the number of days in it in the year 2017 (or any other non-leap year).
+
+```py
+m = int(input())
+if m == 1 or m == 3 or m == 5 or m == 7 or m == 8 or m == 10 or m == 12:
+    print("31")
+elif m == 4 or m == 6 or m == 9 or m == 11:
+    print("30")
+else:
+    print("28")
+```
+
+Image of results
+
+<img width="804" alt="Screen Shot 2565-09-18 at 22 55 52" src="https://user-images.githubusercontent.com/111941936/190910584-cc3cf7e1-fc5f-4e70-8f4e-b5d39b7aad37.png">
+
+## Next day
+
+Given the month (an integer from 1 to 12) and the day in it (an integer from 1 to 31) in the year 2017 (or in any other common year), print the month and the day of the next day to it. The first test corresponds to March 30 and March 31. The second test corresponds to March 31 and April 1.
+
+```py
+month = int(input())
+day = int(input())
+if day == 31:
+    month = month + 1
+    day = 1
+elif day == 30:
+    if month == 4 or month == 6 or month == 9 or month == 11:
+        month = month + 1
+        day = 1
+    else:
+        day = day + 1
+elif day == 28:
+    month = 3
+    day = 1
+else:
+    day = day + 1
+
+if month > 12:
+    month = 1
+        
+print(month)
+print(day)
+```
+
+Image of results
+
+<img width="803" alt="Screen Shot 2565-09-18 at 23 14 03" src="https://user-images.githubusercontent.com/111941936/190911482-111f47bf-bb28-4871-be67-9642e3c40804.png">
+
+## Linear equation
+
+Write a program that solves a linear equation ax = b in integers. Given two integers a and b (a may be zero), print a single integer root if it exists and print "no solution" or "many solutions" otherwise.
+
+```py
+a = int(input())
+b = int(input())
+if a == 0 and b == 0:
+    print('many solutions')
+elif a == 0 and b != 0 or b % a != 0:
+    print('no solution')
+else:
+    print(b // a)
+```
+
+Image of results
+
+<img width="793" alt="Screen Shot 2565-09-18 at 23 18 05" src="https://user-images.githubusercontent.com/111941936/190911673-7c3fd4df-3ed5-4088-908b-643dfca87478.png">
+
+## Vertices of rectangle
+
+Given integer coordinates of three vertices of a rectangle whose sides are parallel to the coordinate axes, find the coordinates of the fourth vertex of the rectangle. In the first test the three given vertices are (1, 4), (1, 6), (7, 4). The fourth vertex is thus (7, 6).
+
+```py
+x1 = int(input())
+y1 = int(input())
+x2 = int(input())
+y2 = int(input())
+x3 = int(input())
+y3 = int(input())
+
+if x1 == x2:
+    x4 = x3
+elif x1 == x3:
+    x4 = x2
+else:
+    x4 = x1
+    
+if y1 == y2:
+    y4 = y3
+elif y1 == y3:
+    y4 = y2
+else:
+    y4 = y1
+
+print(x4)
+print(y4)
+```
+
+Image of results
+
+<img width="792" alt="Screen Shot 2565-09-18 at 23 28 24" src="https://user-images.githubusercontent.com/111941936/190912171-573bc655-d0f9-4541-9464-96db80cac7f5.png">
+
+## Sort three numbers
+
+Given three integers, print them in ascending order.
+
+```py
+a = int(input())
+b = int(input())
+c = int(input())
+
+if a > b:
+    a , b = b , a
+    
+if a > c:
+    a, c = c, a
+if b > c:
+    b, c = c, b
+
+print(a)
+print(b)
+print(c)
+```
+
+Image of results
+
+<img width="797" alt="Screen Shot 2565-09-19 at 00 17 20" src="https://user-images.githubusercontent.com/111941936/190914500-d88d4f7b-e4c3-4cc9-8611-6e5cbceabe40.png">
+
+
