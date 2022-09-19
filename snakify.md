@@ -1042,4 +1042,8 @@ Image of results
 
 <img width="792" alt="Screen Shot 2565-09-19 at 09 24 48" src="https://user-images.githubusercontent.com/111941936/190934450-2c0c0113-b533-4a0a-ab24-34d3abcaeb81.png">
 
-#
+# Chapter 4 - For loop with range
+
+## Count to N
+
+Given an integer N, print all the numbers from 1 to N.
