@@ -11,8 +11,6 @@ c = int(input())
 print(a + b + c)
 ```
 
-Image of the results
-
 <img width="806" alt="Screen Shot 2565-09-01 at 20 58 00" src="https://user-images.githubusercontent.com/111941936/187908669-1c9892ce-6dd5-4b0b-aab9-6b89647a5313.png">
 
 ## Hi John
@@ -22,8 +20,6 @@ Write a program that greets the person by printing the word "Hi" and the name of
 ```.py
 print('Hi',input())
 ```
-
-Image of the results
 
 <img width="795" alt="Screen Shot 2565-09-01 at 21 05 30" src="https://user-images.githubusercontent.com/111941936/187919470-8f3ac8df-53fe-40c4-af90-d7b1a7b166f1.png">
 
@@ -35,8 +31,6 @@ Write a program that takes a number and print its square.
 a = int(input())
 print(a ** 2)
 ```
-
-Image of the results
 
 <img width="803" alt="Screen Shot 2565-09-01 at 22 19 37" src="https://user-images.githubusercontent.com/111941936/187924090-405abebb-4617-4bd2-9379-238cc7189f69.png">
 
@@ -50,8 +44,6 @@ h = int(input())
 print(1/2 * b * h)
 ```
 
-Image of the results
-
 <img width="799" alt="Screen Shot 2565-09-01 at 22 25 22" src="https://user-images.githubusercontent.com/111941936/187926218-801baef4-5434-4fd1-b213-7ce13611ad8b.png">
 
 ## Hello, Harry!
@@ -62,8 +54,6 @@ Write a program that greets the user by printing the word "Hello", a comma, the 
 name = input()
 print('Hello'+ ', ' + name + '!')
 ```
-
-Image of the results
 
 <img width="799" alt="Screen Shot 2565-09-01 at 22 37 31" src="https://user-images.githubusercontent.com/111941936/187927945-9477d191-f83f-40f9-81f0-efa6ddc30bba.png">
 
@@ -77,7 +67,6 @@ k = int(input())
 print(k // n)
 print(k % n)
 ```
-Image of the results
 
 <img width="800" alt="Screen Shot 2565-09-01 at 22 48 15" src="https://user-images.githubusercontent.com/111941936/187930481-dbdaa989-e9d3-4662-8e7b-604b5b0e174e.png">
 
@@ -90,8 +79,6 @@ a = int(input())
 print('The next number for the number ' + str(a) + ' is ' + str(a + 1) + '.')
 print('The previous number for the number ' + str(a) + ' is ' + str(a - 1) + '.')
 ```
-
-Image of the results
 
 <img width="997" alt="Screen Shot 2565-09-03 at 00 01 24" src="https://user-images.githubusercontent.com/111941936/188178227-5653d593-2584-40c7-9ab5-acaf92ba3348.png">
 
@@ -110,8 +97,6 @@ print(hrs_2 * 3600 + mins_2 * 60 + secs_2
 - hrs_1 * 3600 - mins_1 * 60 - secs_1)
 ```
 
-Image of the results
-
 <img width="807" alt="Screen Shot 2565-09-04 at 21 13 45" src="https://user-images.githubusercontent.com/111941936/188312881-984257ec-dc1b-4e6c-83af-a2a19e07b2b4.png">
 
 ## School desks
@@ -128,8 +113,6 @@ c = int(input())
 print(a//2 + b//2 + c//2 + a%2 + b%2 + c%2)
 ```
 
-Image of the results
-
 <img width="798" alt="Screen Shot 2565-09-04 at 21 23 25" src="https://user-images.githubusercontent.com/111941936/188313333-3fda4422-3def-47d9-860e-a88dd7a02eed.png">
 
 # Chapter 2 - Integer and float numbers
@@ -143,8 +126,6 @@ a = int(input())
 print(a % 10)
 ```
 
-Image of the results
-
 <img width="794" alt="Screen Shot 2565-09-04 at 21 53 35" src="https://user-images.githubusercontent.com/111941936/188314518-ea0b9e91-f567-4579-a07d-3a7d30a12418.png">
 
 ## Two digits
@@ -155,8 +136,6 @@ Given a two-digit number, print its digits separately.
 a = int(input())
 print(a//10, a%10)
 ```
-
-Image of the results
 
 <img width="787" alt="Screen Shot 2565-09-04 at 21 56 38" src="https://user-images.githubusercontent.com/111941936/188314676-4538148b-7e85-4eb0-a79c-84446402770d.png">
 
@@ -171,8 +150,6 @@ units = a % 10
 print(units * 10 + tens)
 ```
 
-Image of the results
-
 <img width="791" alt="Screen Shot 2565-09-04 at 22 02 06" src="https://user-images.githubusercontent.com/111941936/188314887-0a1f8821-db64-4dc3-8fc8-2ff0d15ad675.png">
 
 ## Last two digits
@@ -184,8 +161,6 @@ a = int(input())
 print(a % 100)
 ```
 
-Image of the results
-
 <img width="790" alt="Screen Shot 2565-09-04 at 22 08 15" src="https://user-images.githubusercontent.com/111941936/188315162-174b6ae3-c53c-49c7-962b-fb0709d8b703.png">
 
 ## Tens digit
@@ -196,8 +171,6 @@ Given an integer. Print its tens digit.
 a = int(input())
 print(a // 10 % 10) 
 ```
-
-Image of the results
 
 <img width="788" alt="Screen Shot 2565-09-04 at 22 19 17" src="https://user-images.githubusercontent.com/111941936/188315663-260b4f7f-90b7-4562-b513-a87b7e0d4916.png">
 
@@ -213,8 +186,6 @@ units = (a % 10)
 print(hundreds + tens + units)
 ```
 
-Image of the results
-
 <img width="800" alt="Screen Shot 2565-09-05 at 09 47 24" src="https://user-images.githubusercontent.com/111941936/188340523-b7661aa1-ad23-4c87-8f81-6307c1fc9abc.png">
 
 ## Reverse three digits
@@ -228,8 +199,6 @@ tens = a % 100 // 10
 hundreds = a // 100
 print(units * 100 + tens * 10 + hundreds)
 ```
-
-Image of the results
 
 <img width="789" alt="Screen Shot 2565-09-05 at 09 52 08" src="https://user-images.githubusercontent.com/111941936/188340791-9bea5426-82d2-4919-9b81-c12521d2f14a.png">
 
@@ -247,8 +216,6 @@ units_b = b % 10
 print(tens_a * 1000 + tens_b * 100 + units_a * 10 + units_b)
 ```
 
-Image of the results
-
 <img width="782" alt="Screen Shot 2565-09-05 at 10 07 04 1" src="https://user-images.githubusercontent.com/111941936/188341689-785a345d-33b5-4b1f-8ba0-0cbe1c360cd6.png">
 
 ## Cyclic rotation
@@ -259,8 +226,6 @@ Given a four-digit integer number, perform its cyclic rotation by two digits, as
 a = int(input())
 print(a % 100 * 100 + a // 100)
 ```
-
-Image of the results
 
 <img width="784" alt="Screen Shot 2565-09-05 at 11 11 40" src="https://user-images.githubusercontent.com/111941936/188346663-1aec7379-21b7-4ebb-a359-5d33a9ec3717.png">
 
@@ -273,8 +238,6 @@ a = float(input())
 print(a - int(a))
 ```
 
-Image of the results
-
 <img width="796" alt="Screen Shot 2565-09-05 at 11 19 18" src="https://user-images.githubusercontent.com/111941936/188348439-10d8fa2f-1daa-4aff-b741-2e407b804c6b.png">
 
 ## First digit after decimal point
@@ -286,7 +249,6 @@ a = float(input())
 b = a * 10
 print(int(b) % 10)
 ```
-Image of the results
 
 <img width="781" alt="Screen Shot 2565-09-05 at 11 25 34" src="https://user-images.githubusercontent.com/111941936/188349053-25b61876-ed3f-4de6-af7a-c5f8a724b298.png">
 
@@ -302,8 +264,6 @@ m = int(input())
 print(ceil(m / n))
 ```
 
-Image of the results
-
 <img width="789" alt="Screen Shot 2565-09-06 at 19 29 21" src="https://user-images.githubusercontent.com/111941936/188613136-f6e96caf-6dd7-4254-bb0c-8d66ba96cab6.png">
 
 ## Day of week
@@ -314,8 +274,6 @@ Let's count the days of the week as follows: 0 - Sunday, 1 - Monday, 2 - Tuesday
 k = int(input())
 print((k + 3) % 7)
 ```
-
-Image of the results
 
 <img width="778" alt="Screen Shot 2565-09-07 at 20 08 52" src="https://user-images.githubusercontent.com/111941936/188864205-d33243df-60d1-4bc4-a29f-5aef23877d7f.png">
 
@@ -329,8 +287,6 @@ hours = n // 60
 minutes = n % 60
 print(hours, minutes)
 ```
-
-Image of the results
 
 <img width="802" alt="Screen Shot 2565-09-15 at 09 59 48" src="https://user-images.githubusercontent.com/111941936/190288799-ef51c224-ad58-4689-9dfe-a3824dd13e8e.png">
 
@@ -346,8 +302,6 @@ cost = n * (100 * a + b)
 print(cost // 100, cost % 100)
 ```
 
-Image of the results
-
 <img width="793" alt="Screen Shot 2565-09-15 at 10 01 12" src="https://user-images.githubusercontent.com/111941936/190288957-0c9ec27f-692e-4064-8b86-cea2df40509f.png">
 
 ## Century
@@ -358,8 +312,6 @@ Given a year as a positive integer, print its century. Mind that the 20th centur
 a = int(input())
 print((a - 1) // 100 + 1)
 ```
-
-Image of the results
 
 <img width="794" alt="Screen Shot 2565-09-15 at 10 05 04" src="https://user-images.githubusercontent.com/111941936/190289348-403fdca7-cac2-4c8a-912d-378ca3ec74ec.png">
 
@@ -377,8 +329,6 @@ b = int(input())
 print(ceil((h - a) / (a - b)) + 1)
 ```
 
-Image of the results
-
 <img width="792" alt="Screen Shot 2565-09-15 at 10 06 29" src="https://user-images.githubusercontent.com/111941936/190289517-d09e2d0f-bbf1-4952-a9aa-a4107a32ec41.png">
 
 ## Clock face - 1
@@ -392,8 +342,6 @@ s = int(input())
 print( h * 30 + m * 30 / 60 + s * 30 / 3600)
 ```
 
-Image of the results
-
 <img width="787" alt="Screen Shot 2565-09-15 at 10 08 08" src="https://user-images.githubusercontent.com/111941936/190289684-d68aa20a-1684-4f03-b121-0afb9a12d602.png">
 
 ## Clock face - 2
@@ -404,8 +352,6 @@ Hour hand turned by α degrees since the midnight. Determine the angle by which 
 a = float(input())
 print(a % 30 * 12)
 ```
-
-Image of the results
 
 <img width="792" alt="Screen Shot 2565-09-15 at 10 09 29" src="https://user-images.githubusercontent.com/111941936/190289920-afa640a5-262c-4112-80e3-cafc27c18a9d.png">
 
@@ -423,8 +369,6 @@ else:
     print('NO')
 ```
 
-Image of the results
-
 <img width="805" alt="Screen Shot 2565-09-15 at 10 14 43" src="https://user-images.githubusercontent.com/111941936/190290445-5ebcb8e0-32df-469b-ba6d-c31bbcb8f218.png">
 
 ## Is odd
@@ -438,8 +382,6 @@ if a % 2 != 0:
 else:
     print('NO')
 ```
-
-Image of the results
 
 <img width="791" alt="Screen Shot 2565-09-15 at 10 17 47" src="https://user-images.githubusercontent.com/111941936/190290745-880c6389-e46d-4416-88a4-0722cbb5d84a.png">
 
@@ -455,8 +397,6 @@ else:
     print('NO')
 ```
 
-Image of the results
-
 <img width="799" alt="Screen Shot 2565-09-15 at 10 19 39" src="https://user-images.githubusercontent.com/111941936/190290954-389a7fbe-f7c1-4f75-815c-d3d959fcb4ab.png">
 
 ## Ends on seven
@@ -468,8 +408,6 @@ if a % 10 == 7:
 else:
     print('NO')
 ```
-
-Image of the results
 
 <img width="800" alt="Screen Shot 2565-09-15 at 10 23 54" src="https://user-images.githubusercontent.com/111941936/190291462-c5f0dfaf-8c27-4a95-98d5-3519a1ef9a3d.png">
 
@@ -486,8 +424,6 @@ else:
     print(a)
 ```
 
-Image of the results
-
 <img width="807" alt="Screen Shot 2565-09-15 at 10 26 32" src="https://user-images.githubusercontent.com/111941936/190291819-d5ffe6f6-ba1b-46ad-8bf5-133c36bf2fae.png">
 
 ## Are both odd
@@ -500,8 +436,6 @@ if a % 2 == 1 and b % 2 == 1:
 else:
     print('NO')
 ```
-
-Image of the results
 
 <img width="802" alt="Screen Shot 2565-09-15 at 17 23 45" src="https://user-images.githubusercontent.com/111941936/190353941-9ef29543-4e77-4c5c-b897-992c1bcf0d7c.png">
 
@@ -518,8 +452,6 @@ else:
     print('NO')
 ```
 
-Image of the results
-
 <img width="783" alt="Screen Shot 2565-09-15 at 17 25 58" src="https://user-images.githubusercontent.com/111941936/190354361-9b362082-257e-4472-93b3-1b67787ed742.png">
 
 ## Exactly one odd
@@ -534,8 +466,6 @@ if a % 2 == 1 and b % 2 == 0 or a % 2 == 0 and b % 2 == 1:
 else:
     print('NO')
 ```
-
-Image of the results
 
 <img width="778" alt="Screen Shot 2565-09-15 at 17 28 53" src="https://user-images.githubusercontent.com/111941936/190354982-3999e739-b4d5-4f6c-9213-cec8adbe83c8.png">
 
@@ -553,8 +483,6 @@ else:
     print(-1)
 ```
 
-Image of the results
-
 <img width="801" alt="Screen Shot 2565-09-15 at 17 34 08" src="https://user-images.githubusercontent.com/111941936/190356235-647ebd51-200c-4077-9336-dfdc5126445a.png">
 
 ## Numbers in ascending order
@@ -571,8 +499,6 @@ else:
     print('NO')
 ```
 
-Image of the results
-
 <img width="796" alt="Screen Shot 2565-09-15 at 17 37 25" src="https://user-images.githubusercontent.com/111941936/190356979-0123437d-0f23-48d5-9aff-c2a9853d0355.png">
 
 ## Is three digit
@@ -586,8 +512,6 @@ if a >= 100 and a < 1000:
 else:
     print('NO')
 ```
-
-Image of results
 
 <img width="798" alt="Screen Shot 2565-09-15 at 17 41 29" src="https://user-images.githubusercontent.com/111941936/190357846-fce6bc71-a92a-482b-b887-c173176d916c.png">
 
@@ -607,8 +531,6 @@ else:
     print(c)
 ```
 
-Image of results
-
 <img width="798" alt="Screen Shot 2565-09-15 at 17 45 44" src="https://user-images.githubusercontent.com/111941936/190358787-4e7b7fc3-51cb-42b3-a720-50a0a16df199.png">
 
 ## Equal numbers
@@ -626,8 +548,6 @@ elif a == b or a == c or b == c:
 else:
     print('0')
 ```
-
-Image of results
 
 <img width="792" alt="Screen Shot 2565-09-15 at 17 50 31" src="https://user-images.githubusercontent.com/111941936/190359856-9d60f966-c4ff-4700-baa2-617d692d9134.png">
 
@@ -647,8 +567,6 @@ else:
     print('NO')
 ```
 
-Image of the results
-
 <img width="787" alt="Screen Shot 2565-09-16 at 01 51 08" src="https://user-images.githubusercontent.com/111941936/190462407-e2d23065-e000-43b3-b160-97db933872f5.png">
 
 ## Chess board - black square
@@ -664,8 +582,6 @@ if row % 2 == col % 2:
 else:
     print('WHITE')
 ```
-
-Image of the results
 
 <img width="793" alt="Screen Shot 2565-09-16 at 02 23 16" src="https://user-images.githubusercontent.com/111941936/190470315-5a705053-0854-4775-a44e-afff3a7ff82f.png">
 
@@ -684,8 +600,6 @@ if (a1 + b1 + a2 + b2) % 2 == 0:
 else:
     print('NO')
 ```
-
-Image of results
 
 <img width="804" alt="Screen Shot 2565-09-16 at 02 36 36" src="https://user-images.githubusercontent.com/111941936/190472786-72f8cf5f-2727-4929-8623-61fb77c9c32c.png">
 
@@ -707,8 +621,6 @@ else:
     print(a_to_c)
 ```
 
-Image of results
-
 <img width="794" alt="Screen Shot 2565-09-16 at 21 58 03" src="https://user-images.githubusercontent.com/111941936/190644262-421dfc69-8c40-4602-9af9-c637cedfa04e.png">
 
 ## Digits in ascending order
@@ -725,8 +637,6 @@ if c < b < a:
 else:
     print('NO')
 ```
-    
-Image of results
 
 <img width="802" alt="Screen Shot 2565-09-16 at 22 07 08" src="https://user-images.githubusercontent.com/111941936/190645889-6a9bf6fd-dfd9-407f-b61c-70def3512679.png">
 
@@ -743,8 +653,6 @@ if a == b:
 else:
     print('NO')
 ```
-
-Image of results
 
 <img width="802" alt="Screen Shot 2565-09-18 at 16 30 47" src="https://user-images.githubusercontent.com/111941936/190890954-e2a66c46-7b79-4030-ab99-aea92c2396fb.png">
 
@@ -765,8 +673,6 @@ else:
     print('NO')
 ```
 
-Image of the results
-
 <img width="799" alt="Screen Shot 2565-09-18 at 16 37 13" src="https://user-images.githubusercontent.com/111941936/190891124-f660cd70-9a6d-45bb-bdf3-fb3a82d9888d.png">
 
 ## Bishop moves
@@ -785,8 +691,6 @@ if abs(a1 - a2) == abs(b1 - b2):
 else:
     print('NO')
 ```
-
-Image of results
 
 <img width="791" alt="Screen Shot 2565-09-18 at 16 41 19" src="https://user-images.githubusercontent.com/111941936/190891274-b05d3672-708a-4c46-8119-6541d8eb1e66.png">
 
@@ -807,8 +711,6 @@ else:
     print('NO')
 ```
 
-Image of results
-
 <img width="803" alt="Screen Shot 2565-09-18 at 16 48 35" src="https://user-images.githubusercontent.com/111941936/190891648-b06edf86-f952-404f-9fc3-de87756a5ba9.png">
 
 ## Index of outlier
@@ -826,8 +728,6 @@ elif a == c:
 else:
     print('1')
 ```
-
-Image of results
 
 <img width="803" alt="Screen Shot 2565-09-18 at 16 53 33" src="https://user-images.githubusercontent.com/111941936/190891798-39ac362b-21a1-4f94-830c-0f596a7934af.png">
 
@@ -850,8 +750,6 @@ else:
     print('NO')
 ```
 
-Image of results
-
 <img width="795" alt="Screen Shot 2565-09-18 at 22 14 33" src="https://user-images.githubusercontent.com/111941936/190903962-0a0213d8-ba11-4459-a951-80f220ef542a.png">
 
 ## Chocolate bar
@@ -868,8 +766,6 @@ else:
     print('NO')
 ```
 
-Image of results
-
 <img width="791" alt="Screen Shot 2565-09-18 at 22 43 49" src="https://user-images.githubusercontent.com/111941936/190906572-e4b2c3da-47a9-4c4e-9a1f-9afdc8fe5872.png">
 
 ## Leap year
@@ -883,8 +779,6 @@ if y % 4 == 0 and y % 100 != 0 or y % 400 == 0:
 else:
     print('COMMON')
 ```
-
-Image of results
 
 <img width="794" alt="Screen Shot 2565-09-18 at 22 52 13" src="https://user-images.githubusercontent.com/111941936/190909931-1f5134da-b71d-4fe3-ab13-73ec60f135d1.png">
 
@@ -901,8 +795,6 @@ elif m == 4 or m == 6 or m == 9 or m == 11:
 else:
     print("28")
 ```
-
-Image of results
 
 <img width="804" alt="Screen Shot 2565-09-18 at 22 55 52" src="https://user-images.githubusercontent.com/111941936/190910584-cc3cf7e1-fc5f-4e70-8f4e-b5d39b7aad37.png">
 
@@ -935,8 +827,6 @@ print(month)
 print(day)
 ```
 
-Image of results
-
 <img width="803" alt="Screen Shot 2565-09-18 at 23 14 03" src="https://user-images.githubusercontent.com/111941936/190911482-111f47bf-bb28-4871-be67-9642e3c40804.png">
 
 ## Linear equation
@@ -953,8 +843,6 @@ elif a == 0 and b != 0 or b % a != 0:
 else:
     print(b // a)
 ```
-
-Image of results
 
 <img width="793" alt="Screen Shot 2565-09-18 at 23 18 05" src="https://user-images.githubusercontent.com/111941936/190911673-7c3fd4df-3ed5-4088-908b-643dfca87478.png">
 
@@ -988,8 +876,6 @@ print(x4)
 print(y4)
 ```
 
-Image of results
-
 <img width="792" alt="Screen Shot 2565-09-18 at 23 28 24" src="https://user-images.githubusercontent.com/111941936/190912171-573bc655-d0f9-4541-9464-96db80cac7f5.png">
 
 ## Sort three numbers
@@ -1014,8 +900,6 @@ print(b)
 print(c)
 ```
 
-Image of results
-
 <img width="797" alt="Screen Shot 2565-09-19 at 00 17 20" src="https://user-images.githubusercontent.com/111941936/190914500-d88d4f7b-e4c3-4cc9-8611-6e5cbceabe40.png">
 
 ## White pawn move
@@ -1038,8 +922,6 @@ else:
     print("NO")
 ```
 
-Image of results
-
 <img width="792" alt="Screen Shot 2565-09-19 at 09 24 48" src="https://user-images.githubusercontent.com/111941936/190934450-2c0c0113-b533-4a0a-ab24-34d3abcaeb81.png">
 
 # Chapter 4 - For loop with range
@@ -1047,3 +929,99 @@ Image of results
 ## Count to N
 
 Given an integer N, print all the numbers from 1 to N.
+
+```py
+n = int(input())
+for i in range (1, n+1):
+    print(i)
+```
+
+<img width="801" alt="Screen Shot 2565-09-19 at 16 42 53" src="https://user-images.githubusercontent.com/111941936/190971160-3715049b-9cc5-42c8-b514-83900217e268.png">
+
+## Series - 1
+
+Given two integers A and B (A ≤ B). Print all numbers from A to B inclusively.
+
+```py
+a = int(input())
+b = int(input())
+for i in range(a , b + 1):
+    print(i)
+```
+
+<img width="801" alt="Screen Shot 2565-09-19 at 18 42 48" src="https://user-images.githubusercontent.com/111941936/190991052-25bdf7bb-2a5a-416f-8481-d44e9b35273f.png">
+
+## First N odd, ascending
+
+Given an integer N, print all the odd numbers from 1 to N in ascending order.
+
+```py
+N = int(input())
+for i in range(N + 1):
+    if i % 2 == 1:
+        print(i)
+```
+
+<img width="796" alt="Screen Shot 2565-09-19 at 18 48 07" src="https://user-images.githubusercontent.com/111941936/190992092-4cf8d425-5742-4e84-a3e9-b4fa759a155f.png">
+
+## Series - 2
+
+Given two integers A and B. Print all numbers from A to B inclusively, in ascending order, if A < B, or in descending order, if A ≥ B.
+
+```py
+a = int(input())
+b = int(input())
+if a < b:
+    for i in range(a, b + 1):
+        print(i)
+else:
+    for i in range(a, b - 1, -1):
+        print(i)
+```        
+
+<img width="800" alt="Screen Shot 2565-09-19 at 19 18 41" src="https://user-images.githubusercontent.com/111941936/190996895-5686f493-1694-4258-8c13-96a9707d67d1.png">
+
+## First N even, descending
+
+Given an integer N, print all the even numbers from 0 to N in descending order.
+
+```py
+n = int(input())
+if n % 2 == 1:
+    n -= 1
+for i in range(n, -1, -2):
+    print(i)
+```
+
+<img width="801" alt="Screen Shot 2565-09-19 at 19 30 16" src="https://user-images.githubusercontent.com/111941936/190998916-933d65f0-ae8d-44f1-8ab3-db8dba840adf.png">
+
+## Sum of ten numbers
+
+10 numbers are given in the input. Read them and print their sum. Use as few variables as you can.
+
+```py
+sum = 0
+for i in range(10):
+    sum += int(input())
+print(sum)
+```
+
+<img width="802" alt="Screen Shot 2565-09-19 at 19 39 41" src="https://user-images.githubusercontent.com/111941936/191000281-7921afd0-e272-44cf-96de-21cd93bbea73.png">
+
+## Sum of N numbers
+
+N numbers are given in the input. Read them and print their sum.
+
+```py
+sum=0
+n = int(input())
+for i in range(n):
+    a = int(input())
+    sum = sum + a
+print(sum)
+```
+
+## Product of N numbers
+
+N numbers are given in the input. Read them and print their product.
+
