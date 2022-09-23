@@ -1,7 +1,8 @@
 # Crypto Wallet
 
-![](22ROOSE-master768.gif)  
-<sub>Illustration for Glenn Harvey</sub>
+![image](https://user-images.githubusercontent.com/111941936/191906464-99d79a2b-64ac-4da3-b57a-eb7b79c6c3fc.png)
+
+<sub>Crypto memes(Twitter)</sub>
 
 # Criteria A: Planning
 
