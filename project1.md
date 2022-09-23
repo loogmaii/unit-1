@@ -17,7 +17,10 @@ Apart for this requirements, Ms Sato is open to explore a cryptocurrency selecte
 Design statement:
 I will to design and make a ———— for a client who is ———. The ——– will about ———— and is constructed using the software ———. It will take  ———- to make and will be evaluated according to the criteria ———.
 
-** add a description of your coin and citation **
+Created in late 2013, DOGE was created as a lighthearted alternative to traditional cryptocurrencies, but it's become seriously valuable. The name and Shiba Inu logo are based on a meme. Unlike Bitcoin, which was designed to be scarce, Dogecoin is intentionally abundant — with 10,000 new coins mined every minute and no maximum supply.
+
+<sub>www.coinbase.com</sub>
+
 | Group 1   |              |   | Group  2  |           |
 |-----------|--------------|---|-----------|-----------|
 | Developer | Digital Coin |   | Developer | Coin      |
@@ -58,4 +61,5 @@ Justify the tools/structure of your solution
 | Task No | Planned Action                                                | Planned Outcome                                                                                                 | Time estimate | Target completion date | Criterion |
 |---------|---------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|---------------|------------------------|-----------|
 | 1       | Create system diagram                                         | To have a clear idea of the hardware and software requirements for the proposed solution                        | 10min         | Sep 24                 | B         |
+| 2       | Meet with client                                         | Recieve Client's aproval                        | 5min         | Sep 23                 | A         |
 
