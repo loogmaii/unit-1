@@ -1021,7 +1021,20 @@ for i in range(n):
 print(sum)
 ```
 
+<img width="793" alt="Screen Shot 2565-09-28 at 20 43 45" src="https://user-images.githubusercontent.com/111941936/192770601-c9e3a51f-5462-4c5d-87cd-1ebca4ccb88a.png">
+
+
 ## Product of N numbers
 
 N numbers are given in the input. Read them and print their product.
 
+```py
+answer = 1
+N = int(input())
+for i in range(N):
+    a = int(input())
+    answer = answer * a
+print(answer)
+```
+
+<img width="801" alt="Screen Shot 2565-09-28 at 20 46 53" src="https://user-images.githubusercontent.com/111941936/192771109-4b4e2730-f03d-4f35-808d-dee6b19c973e.png">
