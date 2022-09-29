@@ -15,40 +15,40 @@ Apart for this requirements, Ms Sato is open to explore a cryptocurrency selecte
 ## Proposed Solution
 
 Design statement:
-I will to design and make a ———— for a client who is ———. The ——– will about ———— and is constructed using the software ———. It will take  ———- to make and will be evaluated according to the criteria ———.
+I will to design and make an electronic ledger for a client who is interested in crypto curency. The ——– will about ———— and is constructed using the software ———. It will take  ———- to make and will be evaluated according to the criteria ———.
 
 Created in late 2013, DOGE was created as a lighthearted alternative to traditional cryptocurrencies, but it's become seriously valuable. The name and Shiba Inu logo are based on a meme. Unlike Bitcoin, which was designed to be scarce, Dogecoin is intentionally abundant — with 10,000 new coins mined every minute and no maximum supply.
 
 <sub>www.coinbase.com</sub>
 
-| Group 1   |              |   | Group  2  |           |
-|-----------|--------------|---|-----------|-----------|
-| Developer | Digital Coin |   | Developer | Coin      |
-| Alex      | Bitcoin      |   | Alek      | Solana    |
-| Bernard   | Ethereum     |   | Mai       | Dogecoin  |
-| Yutaro    | Dogecoin     |   | Daniela   | BInance   |
-| Verlon    | Apecoin      |   | Kris      | Bitcoin   |
-| Oswell    | Tether       |   | Paula     | Lumens    |
-| Thumula   | Tron         |   | ZAven     | Ethereum  |
-| Ainee     | Mana         |   | Jonathan  | Maker     |
-| Lison     | Solana       |   | Kai       | Avalanche |
-| Sabu      | Binance      |   | Daiichiro | Flow      |
-| Emmy      | Polkadot     |   | Masamu    | Cardano   |
-| Maria     | Cardano      |   | Yasmina   | Zcash     |
-| Zelan     | Cosmos       |   | Jana      | LiteCoin  |
-| Manahil   | BinanceUSD   |   | Lyn       | Iota      |
-| Krish     | UsdCoin      |   | Meisa     | Polkadot  |
-|           |              |   | Mayte     | Cosmos    |
-|           |              |   | Pop       | Ripple    |
+| Group 1   |              | Group  2  |           |
+|-----------|--------------|-----------|-----------|
+| Developer | Digital Coin | Developer | Coin      |
+| Alex      | Bitcoin      | Alek      | Solana    |
+| Bernard   | Ethereum     | Mai       | Dogecoin  |
+| Yutaro    | Dogecoin     | Daniela   | BInance   |
+| Verlon    | Apecoin      | Kris      | Bitcoin   |
+| Oswell    | Tether       | Paula     | Lumens    |
+| Thumula   | Tron         | ZAven     | Ethereum  |
+| Ainee     | Mana         | Jonathan  | Maker     |
+| Lison     | Solana       | Kai       | Avalanche |
+| Sabu      | Binance      | Daiichiro | Flow      |
+| Emmy      | Polkadot     | Masamu    | Cardano   |
+| Maria     | Cardano      | Yasmina   | Zcash     |
+| Zelan     | Cosmos       | Jana      | LiteCoin  |
+| Manahil   | BinanceUSD   | Lyn       | Iota      |
+| Krish     | UsdCoin      | Meisa     | Polkadot  |
+|           |              | Mayte     | Cosmos    |
+|           |              | Pop       | Ripple    |
 Justify the tools/structure of your solution
 
 ## Success Criteria
 1. The electronic ledger is a text-based software (Runs in the Terminal).
 2. The electronic ledger display the basic description of the cyrptocurrency selected.
 3. The electronic ledger allows to enter, withdraw and record transactions.
-4.
-5.
-6.
+4. The electronic ledger is protected by password and username
+5. The electronic ledger shows the latest 5 transaction with the dates
+6. The electronic ledger 
 
 # Criteria B: Design
 
