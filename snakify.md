@@ -1038,3 +1038,18 @@ print(answer)
 ```
 
 <img width="801" alt="Screen Shot 2565-09-28 at 20 46 53" src="https://user-images.githubusercontent.com/111941936/192771109-4b4e2730-f03d-4f35-808d-dee6b19c973e.png">
+
+## Sum of cubes
+
+For the given integer N calculate the following sum
+
+```py
+n = int(input())
+sum = 0
+for i in range(n):
+    sum = sum + (i + 1) ** 3
+print(sum)
+```
+
+<img width="801" alt="Screen Shot 2565-09-30 at 21 59 10" src="https://user-images.githubusercontent.com/111941936/193274927-0908ee81-9e5a-4aca-aafe-db72d505de4f.png">
+
