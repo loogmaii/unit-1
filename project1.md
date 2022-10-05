@@ -6,6 +6,9 @@
 
 # Criteria A: Planning
 
+
+
+
 ## Problem definition
 
 Ms. Sato is a local trader who is interested in the emerging market of cryptocurrencies. She has started to buy and sell electronic currencies, however at the moment she is tracking all his transaction using a ledger in a spreadsheet which is starting to become burdensome and too disorganized. It is also difficult for Ms Sato to find past transactions or important statistics about the currency. Ms Sato is in need of a digital ledger that helps her track the amount of the cryptocurrency, the transactions, along with useful statistics. 
@@ -15,7 +18,7 @@ Apart for this requirements, Ms Sato is open to explore a cryptocurrency selecte
 ## Proposed Solution
 
 Design statement:
-I will to design and make an electronic ledger for a client who is interested in crypto curency. The ——– will about ———— and is constructed using the software ———. It will take  ———- to make and will be evaluated according to the criteria ———.
+I will to design and make an electronic ledger for a client who is interested in crypto curency trading, specificaly the doge coin. The program will will organize Ms. Sato's transaction and is constructed using the software pycharm. It will take  3 weeks to make and will be evaluated according to the criteria A & B.
 
 Created in late 2013, DOGE was created as a lighthearted alternative to traditional cryptocurrencies, but it's become seriously valuable. The name and Shiba Inu logo are based on a meme. Unlike Bitcoin, which was designed to be scarce, Dogecoin is intentionally abundant — with 10,000 new coins mined every minute and no maximum supply.
 
@@ -47,8 +50,8 @@ Justify the tools/structure of your solution
 2. The electronic ledger display the basic description of the cyrptocurrency selected.
 3. The electronic ledger allows to enter, withdraw and record transactions.
 4. The electronic ledger is protected by password and username
-5. The electronic ledger shows the latest 5 transaction with the dates
-6. The electronic ledger 
+5. The electronic ledger shows the up to date value of the currency
+6. The electronic ledger will show the latest 7 transactions with dates  
 
 # Criteria B: Design
 
