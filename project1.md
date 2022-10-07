@@ -68,4 +68,5 @@ Justify the tools/structure of your solution
 |---------|---------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|---------------|------------------------|-----------|
 | 1       | Create system diagram                                         | To have a clear idea of the hardware and software requirements for the proposed solution                        | 10min         | Sep 24                 | B         |
 | 2       | Meet with client                                         | Recieve Client's aproval                        | 5min         | Sep 23                 | A         |
-
+| 3       | Design the menu                                          | Have enough options to satisfy the client       | 20min         | Sep 27                 | B         |
+| 4       | 
