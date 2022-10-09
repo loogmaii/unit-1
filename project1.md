@@ -64,9 +64,15 @@ Justify the tools/structure of your solution
 
 
 ## Record of Tasks
-| Task No | Planned Action                                                | Planned Outcome                                                                                                 | Time estimate | Target completion date | Criterion |
-|---------|---------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|---------------|------------------------|-----------|
-| 1       | Create system diagram                                         | To have a clear idea of the hardware and software requirements for the proposed solution                        | 10min         | Sep 24                 | B         |
-| 2       | Meet with client                                         | Recieve Client's aproval                        | 5min         | Sep 23                 | A         |
-| 3       | Design the menu                                          | Have enough options to satisfy the client       | 20min         | Sep 27                 | B         |
-| 4       | Create flow diagrams                                     | 
+| Task No | Planned Action                           | Planned Outcome                                                                          | Time estimate | Target completion date | Criterion |
+|---------|------------------------------------------|------------------------------------------------------------------------------------------|---------------|------------------------|-----------|
+| 1       | Create system diagram                    | To have a clear idea of the hardware and software requirements for the proposed solution | 10 min        | Sep 22                 | A         |
+| 2       | Meet with client                         | Recieve Client's aproval                                                                 | 5 min         | Sep 23                 | A         |
+| 3       | Design the menu                          | Have enough options to satisfy the client                                                | 20 min        | Sep 27                 | B         |
+| 4       | Create flow diagrams                     | Make them easy to understand                                                             | 1hr           | Sep 30                 | B         |
+| 5       | Create system diagram                    | Also make them easy to understand                                                        | 10 min        | Sep 30                 | B         |
+| 6       | Code the menu                            | Make it functional and simple to use for the client                                      | 20 min        | Oct 1                  | C         |
+| 7       | Code the login system                    | Gain the client's trust in how the program is password and username protected            | 30 min        | Oct 1                  | C         |
+| 8       | Code all main functions                  | Make sure to stick to success criteria and simple to use                                 | 10 hrs        | Oct 3                  | C         |
+| 9       | Make the program more visually appealing | Make the client want to use it and enjoy the visuals                                     | 20 min        | Oct 3                  | C         |
+| 10      | Record Demonstration Video               | To have a video demonstrating how to use the crypto wallet                               | 20 min        | Oct 4                  | B         |
