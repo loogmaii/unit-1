@@ -17,12 +17,15 @@ Apart for this requirements, Ms Sato is open to explore a cryptocurrency selecte
 
 ## Proposed Solution
 
-Design statement:
-I will to design and make an electronic ledger for a client who is interested in crypto curency trading, specificaly the doge coin. The program will will organize Ms. Sato's transaction and is constructed using the software pycharm. It will take  3 weeks to make and will be evaluated according to the criteria A & B.
+## Design statement
+
+I will to design and make an electronic ledger for a client who is interested in crypto curency trading, specificaly the doge coin. The program will organize Ms. Sato's transaction and is constructed using the software pycharm. It will take  3 weeks to make and will be evaluated according to the criteria A & B. This crypto wallet will provide efficient and simple-to-understand functions that would help the client achieve a better understanding of the Doge coin and help organize her digtal transactions. Moreover
 
 Created in late 2013, DOGE was created as a lighthearted alternative to traditional cryptocurrencies, but it's become seriously valuable. The name and Shiba Inu logo are based on a meme. Unlike Bitcoin, which was designed to be scarce, Dogecoin is intentionally abundant — with 10,000 new coins mined every minute and no maximum supply.
 
 <sub>www.coinbase.com</sub>
+
+
 
 | Group 1   |              | Group  2  |           |
 |-----------|--------------|-----------|-----------|
@@ -51,7 +54,7 @@ Justify the tools/structure of your solution
 3. The electronic ledger allows to enter, withdraw and record transactions.
 4. The electronic ledger is protected by password and username
 5. The electronic ledger shows the up to date value of the currency
-6. The electronic ledger will show the latest 7 transactions with dates  
+6. The electronic ledger will show the latest transactions with dates of the current year  
 
 # Criteria B: Design
 
