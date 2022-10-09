@@ -32,3 +32,8 @@ for locker in range(1, number_lockers, 1):
     color = colors[color_code]
     # print the results
     print(f"Locker No {locker} is {color.center(50, '.')} ")
+```
+
+## evidence
+
+<img width="579" alt="Screen Shot 2565-10-10 at 05 59 39" src="https://user-images.githubusercontent.com/111941936/194779225-6ad45af2-e191-4c84-a78f-82a0247c9900.png">
