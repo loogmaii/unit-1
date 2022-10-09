@@ -32,4 +32,16 @@ for locker in range(1, number_lockers, 1):
     color = colors[color_code]
     # print the results
     print(f"Locker No {locker} is {color.center(50, '.')} ")
+
+# task 3 (HL): receive a color from the user, validate the input,  and output the numbers of the lockers of the color provided.
+clr = input('enter a color between red, white, yellow, and blue: ')
+
+if clr.upper() != "BLUE" or "RED" or "WHITE" or "YELLOW":
+    print("Error")
+if clr.upper()=="BLUE":
+    while output != 2400:
+
+if clr.upper() == "RED":
+if clr.upper() == "WHITE":
+if clr.upper() == "YELLOW":
 ```
