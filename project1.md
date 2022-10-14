@@ -66,9 +66,13 @@ Dogecoin (DOGE) is a peer-to-peer, open-source cryptocurrency. It was introduced
 # citation
 
 [1] Binance Academy. “Dogecoinとは？.” Binance Academy, Binance Academy, 9 Oct. 2020, academy.binance.com/ja/articles/what-is-dogecoin. Accessed 1 Oct. 2022.
+  
 [2] “Cryptocurrency Dogecoin (DOGE): What It Is, History, Uses.” Investopedia, 2022, www.investopedia.com/terms/d/dogecoin.asp. Accessed 1 Oct. 2022.
+  
 [3] “PyCharm：JetBrainsによるプロ開発者向けPython IDE.” Jetbrains.com, JetBrains, 2022, www.jetbrains.com/ja-jp/pycharm/. Accessed 2 Oct. 2022.
+  
 [4] Rhita Koubbi. “A 2020 Guide to Python 2 vs Python 3.” Career Karma, 14 July 2020, careerkarma.com/blog/python-2-vs-python-3/. Accessed 2 Oct. 2022.
+  
 [5]“What Is a .CSV File and What Does It Mean for My Ecommerce Business?” BigCommerce, 2022, www.bigcommerce.com/ecommerce-answers/what-csv-file-and-what-does-it-mean-my-ecommerce-business/. Accessed 2 Oct. 2022.
 
 
