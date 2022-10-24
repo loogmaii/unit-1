@@ -72,19 +72,130 @@ The data are stored and recorded in comma separated value files. The first file,
 
 ## Record of Tasks
   
-| Task No | Planned Action                           | Planned Outcome                                                                          | Time estimate | Target completion date | Criterion |
-|---------|------------------------------------------|------------------------------------------------------------------------------------------|---------------|------------------------|-----------|
-| 1       | Create system diagram                    | To have a clear idea of the hardware and software requirements for the proposed solution | 10 min        | Sep 22                 | A         |
-| 2       | Meet with client                         | Recieve Client's aproval                                                                 | 5 min         | Sep 23                 | A         |
-| 3       | Design the menu                          | Have enough options to satisfy the client                                                | 20 min        | Sep 27                 | B         |
-| 4       | Create flow diagrams                     | Make them easy to understand                                                             | 1hr           | Sep 30                 | B         |
-| 5       | Create system diagram                    | Also make them easy to understand                                                        | 10 min        | Sep 30                 | B         |
-| 6       | Code the menu                            | Make it functional and simple to use for the client                                      | 20 min        | Oct 1                  | C         |
-| 7       | Code the login system                    | Gain the client's trust in how the program is password and username protected            | 30 min        | Oct 1                  | C         |
-| 8       | Code all main functions                  | Make sure to stick to success criteria and simple to use                                 | 10 hrs        | Oct 3                  | C         |
-| 9       | Make the program more visually appealing | Make the client want to use it and enjoy the visuals                                     | 20 min        | Oct 3                  | C         |
-| 10      | Record Demonstration Video               | To have a video demonstrating how to use the crypto wallet                               | 20 min        | Oct 4                  | B         |
+| Task No | Planned Action                                                | Planned Outcome                                                                                                            | Time estimate | Target completion date | Criterion |
+|---------|---------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|---------------|------------------------|-----------|
+| 1       | Create system diagram                                         | should be aware of the appropriate requirements for hardware and software needed for the proposed solution                 | 10 min        | Sep 22                 | A         |
+| 2       | Meet with client                                              | to discuss what the client expects from the digital ledger and come to an agreement of what the functions would look like  | 5 min         | Sep 23                 | A         |
+| 3       | Create success criteria                                       | to make sure the functions designed reaches all the requirements that was agreed on with the client earlier                | 20 min        | Sep 24                 | A         |
+| 4       | Design the menu                                               | Have enough options to satisfy the client                                                                                  | 20 min        | Sep 27                 | B         |
+| 5       | Create flow diagrams                                          | To provide a visual representation of how a function operates and to prepare before coding                                 | 1hr           | Sep 30                 | B         |
+| 6       | Create system diagram                                         | Ensure that the client is informed of the wallet's system.                                                                 | 10 min        | Sep 30                 | B         |
+| 7       | Code the menu                                                 | To be able to have the client choose which function they would like to use                                                 | 20 min        | Oct 1                  | C         |
+| 8       | Test the menu manually with white box method by the developer | Make sure that the functions run smoothly and is easy to understand                                                        | 10 min        | Oct 1                  | B         |
+| 8       | Code the login system                                         | Gain the client's trust in how the program is password and username protected                                              | 30 min        | Oct 1                  | C         |
+| 9       | Code all main functions                                       | Make sure to stick to success criteria and simple to use                                                                   | 10 hrs        | Oct 3                  | C         |
+| 10      | Make the program more visually appealing                      | Make the client want to use it and enjoy the visuals                                                                       | 20 min        | Oct 3                  | C         |
+| 11      | Record Demonstration Video                                    | To have a video demonstrating how to use the crypto wallet                                                                 | 20 min        | Oct 4                  | B         |
 
+# Criteria C: Development
+  
+## Login systen
+  
+```py
+print(f'{colors[4]}please login to your account')
+pass_wrong_count = 0
+username = input("enter username: ")
+password = input("Please enter your password: ")
+right_pw = login(password=password, user=username)
+max_attempts=3
+while pass_wrong_count < max_attempts-1 and right_pw == False:
+    pass_wrong_count += 1
+    print(f"{colors[1]}Incorrect username or password.Attempts left {max_attempts - pass_wrong_count}. Please try again.{end_code}")
+    username = input("Please enter your username: ")
+    password = input("Please enter your password: ")
+    right_pw = login(password=password, user=username)
+
+if pass_wrong_count == 3 or right_pw == False:
+    print(f"{colors[1]}Too many incorrect attempts. Exiting program.{end_code}")
+    exit()
+
+print(f"{colors[6]}Welcome back! {Open_msg}".center(50))
+print("access granted!".center(50))
+```
+
+Fig.6 showcases the login system for the crypto wallet. The input required is the username and the password which is both stored in the db.csv file                                       
+                                       
+## Current wallet balance
+                                       
+```py
+def wall_bal():
+    balance = 0
+    with open("wallet.csv") as file:
+        wallet = file.readlines()
+        i = 0
+        for line in wallet:
+            if i > 0:
+                data = line.split(",")
+                balance = data[2]
+            i += 1
+    current = f'{colors[5]} You currently have {colors[4]}{balance}{colors[5]} doge coins in your wallet!'
+    print(current)
+
+    second_conv = input("'yes' if you would like to convert your balance to USD: ")
+    if second_conv.lower() == "yes":
+        sec_con = float(balance) * current_doge_value
+        print(f'Your current Doge coins value to {colors[4]}{sec_con}{colors[5]} USD!')
+    else:
+        return menu                                      
+```
+
+## menu
+
+```py
+while True:
+    print(f'{colors[4]}{menu}')
+    choice = validate_int_input("enter your choice (number): ")
+    if choice == 1:
+        basic_info()
+    elif choice == 2:
+        wall_bal()
+    elif choice == 3:
+        past_trans()
+    elif choice == 4:
+        with_dep()
+    elif choice == 5:
+        print(f"{colors[5]}Thank you for using this platform, Ms Sato! Have an amazing day <3")
+        exit()
+```
+      
+## record a transaction
+
+```py
+    if choice == 2:
+        with open("wallet.csv", "a") as file:
+            print(f'{with_dep_op} ')
+            sec_choice = validate_int_input("enter your option: ")
+            if sec_choice == 1:
+                date = validate_date_input("enter the date of the transaction(YYYY-MM-DD): ")
+                def price():
+                    bal = (0)
+                    with open("wallet.csv") as file:
+                        wallet = file.readlines()
+                        i = 0
+                        for line in wallet:
+                            if i > 0:
+                                data = line.split(",")
+                                bal = data[2]
+                            i += 1
+                        print(bal)
+                    print(f'You currently have {colors[4]}{bal}{colors[5]} doge coins')
+                price()
+                amount = validate_float_input("enter the amount of doge entered you would like to add: ")
+                new_am = validate_float_input("Enter the new amount you would now have (please make sure it's correct!): ")
+                file.write(f"{date},+{amount},{new_am},Deposit")
+                print(f'{colors[6]}Transaction Recorded! Restart the program before checking the updated balance')
+                return with_dep_op
+            if sec_choice == 2:
+                date = validate_date_input("enter the date of the transaction(YYYY-MM-DD): ")
+                price()
+                amount = validate_float_input("enter the amount of doge entered you would like to add: ")
+                new_am = validate_float_input("Enter the new amount you would now have (please make sure it's correct!): ")
+                file.write(f"{date},-{amount},{new_am},Withdrawal")
+                print(f'{colors[6]}Transaction Recorded! Restart the program before checking the updated balance')
+                return with_dep_op
+            else:
+```          
+                                       
 # citation
 
 [1] Binance Academy. “Dogecoinとは？.” Binance Academy, Binance Academy, 9 Oct. 2020, academy.binance.com/ja/articles/what-is-dogecoin. Accessed 1 Oct. 2022.
