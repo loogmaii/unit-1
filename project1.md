@@ -51,6 +51,24 @@ The data are stored and recorded in comma separated value files. The first file,
 
 ## Flow Diagrams
 
+## simple login 
+  
+![IMG_26A186DA1CED-1](https://user-images.githubusercontent.com/111941936/197588454-091563cd-8dca-4b76-9008-0ea1d2369121.jpeg)
+
+<sub>Fig.3 shows the flow diagram for the simple login function imported from the my_library.py file   
+  
+## login system
+  
+![IMG_7B6BC3FD9DBB-1](https://user-images.githubusercontent.com/111941936/197588706-bfc414d5-97d1-4f47-9dcd-e4d5bbb56108.jpeg)
+
+<sub>Fig.4 shows the flow diagram for the login system to the digital ledger    
+  
+## menu 
+  
+![IMG_7C1012109AAD-1](https://user-images.githubusercontent.com/111941936/197588831-28b3e05d-c42f-417e-af59-5f9714df5014.jpeg)
+
+<sub>Fig.5 shows the flow diagram for the menu function in the digital ledger   
+  
 ## Test Plan
 
 |                             Description                             |                   Type                  |                                                                                 Inputs                                                                                |                                                                                                                                                                                                          Outputs                                                                                                                                                                                                         |
@@ -70,6 +88,8 @@ The data are stored and recorded in comma separated value files. The first file,
 | feedback from others                                                | non-functional, usability               | 1.enter the inputs required to receive the outputs they require                                                                                                       | The program will be user friendly and not over complicated                                                                                                                                                                                                                                                                                                                                                               |
 | end to end run through                                              | system testing                          | 1. run through the entire program trying all the functions                                                                                                            | The program will run smoothly with no issues                                                                                                                                                                                                                                                                                                                                                                             |
 
+Table 1 shows the test plan details the testing that was done on the program. Unit testing, integration testing, and system testing are the several test kinds that are used. 
+  
 ## Record of Tasks
   
 | Task No | Planned Action                                                | Planned Outcome                                                                                                            | Time estimate | Target completion date | Criterion |
@@ -82,10 +102,13 @@ The data are stored and recorded in comma separated value files. The first file,
 | 6       | Create system diagram                                         | Ensure that the client is informed of the wallet's system.                                                                 | 10 min        | Sep 30                 | B         |
 | 7       | Code the menu                                                 | To be able to have the client choose which function they would like to use                                                 | 20 min        | Oct 1                  | C         |
 | 8       | Test the menu manually with white box method by the developer | Make sure that the functions run smoothly and is easy to understand                                                        | 10 min        | Oct 1                  | B         |
-| 8       | Code the login system                                         | Gain the client's trust in how the program is password and username protected                                              | 30 min        | Oct 1                  | C         |
-| 9       | Code all main functions                                       | Make sure to stick to success criteria and simple to use                                                                   | 10 hrs        | Oct 3                  | C         |
-| 10      | Make the program more visually appealing                      | Make the client want to use it and enjoy the visuals                                                                       | 20 min        | Oct 3                  | C         |
-| 11      | Record Demonstration Video                                    | To have a video demonstrating how to use the crypto wallet                                                                 | 20 min        | Oct 4                  | B         |
+| 9       | Code the login system                                         | Gain the client's trust in how the program is password and username protected                                              | 30 min        | Oct 1                  | C         |
+| 10      | Test the login system with both right and wrong inputs        | Make sure the login system works                                                                                           | 10 min        | Oct 1                  | B         |
+| 11      | Code all main functions                                       | Make sure to stick to success criteria and simple to use                                                                   | 10 hrs        | Oct 3                  | C         |
+| 12      | test run through all of the main functions                    | Make sure there are no complications and that is works smoothly                                                            | 1 hr          | Oct 3                  | B         |
+| 13      | Make the program more visually appealing                      | Make the client want to use it and enjoy the visuals                                                                       | 20 min        | Oct 3                  | C         |
+| 14      | Record Demonstration Video                                    | To have a video demonstrating how to use the crypto wallet                                                                 | 20 min        | Oct 4                  | B         |
+| 15      | Create task record table                                      | To show the client of the process of making the ledger                                                                     | 20 min        | Oct 5                  | B         |
 
 # Criteria C: Development
 
@@ -215,6 +238,10 @@ A while loop was used for the client to enter the number of the function they wo
 Fig.9 shows the option to withdraw a transaction from the fourth option to withdraw or deposit a transaction. In the main function, the user was made to decide between choice 1: to withdraw a transaction, or choice 2: to deposit a transaction. This is currently showing choice 1. After the client had entered '1' in the if statement used, the file wallet.csv was opened and the date and amount changed were read out in separate paragraphs through the use of a for loop. A number was also given to each transaction to make it easier to read for the client. 
 
 Once all the past transactions are printed out with numbers in front, the program then asks the user to enter the number of the transaction they would like to withdraw, which is why a number was added in front of each transaction since it would be easier to read and type out. The validate_int_input from my_linrary.py was used again in order to make sure they entered the correct number. The function then re-opens the wallet.csv file and goes to the line of the number entered by the use of for lin in enumerate data. The line of the transaction was then deleted out of the wallet file. The function finishes by printing out a message to confirm the withdrawal of the transaction.
+  
+## video demonstration
+  
+[Video](https://drive.google.com/file/d/1iMtPAuWsrGJXOmOrJMOY5o1itdX2Uqqw/view?usp=sharing)
   
 # citation
 
