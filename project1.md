@@ -185,44 +185,31 @@ MENU:
         exit()
 ```
 
-Fig.8 shows the menu for the electronic ledger. The printed out displayed                                       
+Fig.8 shows the menu for the electronic ledger. The printed out menu was imported from the my_library python file in order to make the main file more organised and have emojis to make it stand out and more visually appealing. 
+
+A while loop was used for the client to enter the number of the function they would like to use, and the validate_int_input was imported from the my_library. py was used to validate if the input was a number between 1 to 5. If not, the program will keep asking to re-enter until the input fits the criteria. From the input, once it's correct, the program would lead the client to one of the 4 functions for each choice, with the last choice being a printed out message before ending the program.                                    
                                        
 ## record a transaction
 
-```py
-    if choice == 2:
-        with open("wallet.csv", "a") as file:
-            print(f'{with_dep_op} ')
-            sec_choice = validate_int_input("enter your option: ")
-            if sec_choice == 1:
-                date = validate_date_input("enter the date of the transaction(YYYY-MM-DD): ")
-                def price():
-                    bal = (0)
-                    with open("wallet.csv") as file:
-                        wallet = file.readlines()
-                        i = 0
-                        for line in wallet:
-                            if i > 0:
-                                data = line.split(",")
-                                bal = data[2]
-                            i += 1
-                        print(bal)
-                    print(f'You currently have {colors[4]}{bal}{colors[5]} doge coins')
-                price()
-                amount = validate_float_input("enter the amount of doge entered you would like to add: ")
-                new_am = validate_float_input("Enter the new amount you would now have (please make sure it's correct!): ")
-                file.write(f"{date},+{amount},{new_am},Deposit")
-                print(f'{colors[6]}Transaction Recorded! Restart the program before checking the updated balance')
-                return with_dep_op
-            if sec_choice == 2:
-                date = validate_date_input("enter the date of the transaction(YYYY-MM-DD): ")
-                price()
-                amount = validate_float_input("enter the amount of doge entered you would like to add: ")
-                new_am = validate_float_input("Enter the new amount you would now have (please make sure it's correct!): ")
-                file.write(f"{date},-{amount},{new_am},Withdrawal")
-                print(f'{colors[6]}Transaction Recorded! Restart the program before checking the updated balance')
-                return with_dep_op
-            else:
+```py    
+if choice == 1:
+  print("Here are the current transactions:   ")
+  with open("wallet.csv", "r") as file:
+    wallet = file.readlines()
+    i = 0
+    for line in wallet:
+      if i > 0:
+        data = line.split(",")
+        print(f"({i}) {data[0]}: {data[1]}")
+      i += 1
+  delete_no = validate_int_input("enter number of transaction: ")
+  with open("wallet.csv", "r") as file:
+    data = file.readlines()
+        with open("wallet.csv", "w") as file:
+            for i, line in enumerate(data):
+                if i != delete_no:
+                    file.write(line)
+        print(f"{colors[2]}Transaction withdrawn!")
 ```          
                                        
 # citation
