@@ -192,26 +192,30 @@ A while loop was used for the client to enter the number of the function they wo
 ## record a transaction
 
 ```py    
-if choice == 1:
-  print("Here are the current transactions:   ")
-  with open("wallet.csv", "r") as file:
-    wallet = file.readlines()
-    i = 0
-    for line in wallet:
-      if i > 0:
-        data = line.split(",")
-        print(f"({i}) {data[0]}: {data[1]}")
-      i += 1
-  delete_no = validate_int_input("enter number of transaction: ")
-  with open("wallet.csv", "r") as file:
-    data = file.readlines()
+    if choice == 1:
+        print("Here are the current transactions:   ")
+        with open("wallet.csv", "r") as file:
+            wallet = file.readlines()
+            i = 0
+            for line in wallet:
+                if i > 0:
+                    data = line.split(",")
+                    print(f"({i}) {data[0]}: {data[1]}")
+                i += 1
+        delete_no = validate_int_input("enter number of transaction: ")
+        with open("wallet.csv", "r") as file:
+            data = file.readlines()
         with open("wallet.csv", "w") as file:
             for i, line in enumerate(data):
                 if i != delete_no:
                     file.write(line)
         print(f"{colors[2]}Transaction withdrawn!")
 ```          
-                                       
+
+Fig.9 shows the option to withdraw a transaction from the fourth option to withdraw or deposit a transaction. In the main function, the user was made to decide between choice 1: to withdraw a transaction, or choice 2: to deposit a transaction. This is currently showing choice 1. After the client had entered '1' in the if statement used, the file wallet.csv was opened and the date and amount changed were read out in separate paragraphs through the use of a for loop. A number was also given to each transaction to make it easier to read for the client. 
+
+Once all the past transactions are printed out with numbers in front, the program then asks the user to enter the number of the transaction they would like to withdraw, which is why a number was added in front of each transaction since it would be easier to read and type out. The validate_int_input from my_linrary.py was used again in order to make sure they entered the correct number. The function then re-opens the wallet.csv file and goes to the line of the number entered by the use of for lin in enumerate data. The line of the transaction was then deleted out of the wallet file. The function finishes by printing out a message to confirm the withdrawal of the transaction.
+  
 # citation
 
 [1] Binance Academy. “Dogecoinとは？.” Binance Academy, Binance Academy, 9 Oct. 2020, academy.binance.com/ja/articles/what-is-dogecoin. Accessed 1 Oct. 2022.
