@@ -88,6 +88,18 @@ The data are stored and recorded in comma separated value files. The first file,
 | 11      | Record Demonstration Video                                    | To have a video demonstrating how to use the crypto wallet                                                                 | 20 min        | Oct 4                  | B         |
 
 # Criteria C: Development
+
+## Tools used
+
+Functions
+  
+For/while loops
+  
+Input Validation
+  
+If statements
+  
+Encryption  
   
 ## Login systen
   
@@ -113,7 +125,9 @@ print(f"{colors[6]}Welcome back! {Open_msg}".center(50))
 print("access granted!".center(50))
 ```
 
-Fig.6 showcases the login system for the crypto wallet. The input required is the username and the password which is both stored in the db.csv file                                       
+Fig.6 showcases the login system for the crypto wallet.The input required is the username and the password, which are both stored in the db.csv file for Ms. Sato. The login system will be displayed first in the program because, from the success criteria, the ledger is password protected in order to gain the client's trust. Therefore, if either the username or password or both are incorect for more than 3 times, the program will come to an end, but if both are correct, the program will continue to the menu page. Once the username and password are correct, the program will insert the username into the welcome message in order to make it more personal for the client. The reason for having a maximum try of 3 is that if there is no limit, anyone could just continue to do it, which is a waste of time and they might possibly get it right. The login function is also imported from the simple_login python file, where it is recommended to open the db.csv file and read the username and password from it. If the input matches, the program will continue. 
+  
+A while looop was used for the number of tries in order to make it easier to try again with a shorter code (a loop). An if statement was also used for the verification of the login inputs if either one was false and exceeded 3 tries.
                                        
 ## Current wallet balance
                                        
@@ -139,10 +153,23 @@ def wall_bal():
         return menu                                      
 ```
 
+Fig. 7 shows the option for the client to check the current wallet balance of their digital ledger. This function opens up the wallet.csv file and splits the comma to access data number 3 'banlance', which in Python is data number 2, and reads the one in the last line since it is the most recent one and prints it out for the client to see. 
+
+After that, the program will ask whether the client would want to convert the Dogecoin value they currently have to USD by using an if statement. If the client types in "yes", the program will multiply the current balance, which is a float since it has decimals, to the current_doge_value from the my_library python file. The program will then print out the final value. If the client inputs anything other than 'yes', the program will return to the menu.
+    
 ## menu
 
 ```py
-while True:
+menu = '''
+MENU:
+1️⃣ view basic information and convert yen to doge coins
+2️⃣ check current wallet balance
+3️⃣ review this year's past transactions
+4️⃣ withdraw or deposit a transaction
+5️⃣ exit
+'''
+  
+  while True:
     print(f'{colors[4]}{menu}')
     choice = validate_int_input("enter your choice (number): ")
     if choice == 1:
@@ -157,7 +184,9 @@ while True:
         print(f"{colors[5]}Thank you for using this platform, Ms Sato! Have an amazing day <3")
         exit()
 ```
-      
+
+Fig.8 shows the menu for the electronic ledger. The printed out displayed                                       
+                                       
 ## record a transaction
 
 ```py
